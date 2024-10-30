@@ -1,0 +1,222 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Loginpetze\n"
+"POT-Creation-Date: 2020-01-14 15:56+0100\n"
+"PO-Revision-Date: 2018-01-14 21:41+0100\n"
+"Last-Translator: Christian Sabo <christian@pixelverbieger.de>\n"
+"Language-Team: pixelverbieger\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;esc_html__;"
+"esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPathExcluded-0: help documents\n"
+
+#: includes/callback-build-section.php:58
+msgid "Please select who should receive the notification mails."
+msgstr ""
+
+#: includes/callback-build-section.php:61
+msgid ""
+"If you wish to change the default texts for subject or body, you can do so."
+msgstr ""
+
+#: includes/callback-build-section.php:64
+msgid "There are some placeholders available. Use them as often as you want:"
+msgstr ""
+
+#: includes/callback-build-section.php:81
+#, php-format
+msgid "will be replaced by the login name of the user; e.g. <code>%s</code>"
+msgstr ""
+
+#: includes/callback-build-section.php:90
+#, php-format
+msgid "will be replaced by the mail address of the user; e.g. <code>%s</code>"
+msgstr ""
+
+#: includes/callback-build-section.php:99
+#, php-format
+msgid "will be replaced by the first name of the user; e.g. <code>%s</code>"
+msgstr ""
+
+#: includes/callback-build-section.php:108
+#, php-format
+msgid "will be replaced by the last name of the user; e.g. <code>%s</code>"
+msgstr ""
+
+#: includes/callback-build-section.php:117
+#, php-format
+msgid "will be replaced by the display name of the user; e.g. <code>%s</code>"
+msgstr ""
+
+#: includes/callback-build-section.php:126
+#, php-format
+msgid "will be replaced by your website&#x27;s name: <code>%s</code>"
+msgstr ""
+
+#: includes/callback-build-section.php:135
+#, php-format
+msgid ""
+"will be replaced by the date corresponding to your blog settings: <code>%s</"
+"code>"
+msgstr ""
+
+#: includes/callback-build-section.php:144
+#, php-format
+msgid ""
+"will be replaced by the time corresponding to your blog settings: <code>%s</"
+"code>"
+msgstr ""
+
+#: includes/callback-formfields-body.php:34
+msgid "Enter the desired lines for the mail body."
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:64
+#: includes/callback-formfields-recipient.php:103
+#: includes/callback-formfields-recipient.php:119
+#: includes/function-build-recipient-list.php:69
+msgid "Blog Admin"
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:102
+#, php-format
+msgid "User not available – recipient switched to <em>%s</em>."
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:110
+#, php-format
+msgid ""
+"The previous recipient of the notifications (user #%s) is no longer "
+"available. The user might have been deleted or has lost Admin role."
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:118
+#, php-format
+msgid ""
+"Recipient was automatically switched to <em>%s</em>. You may want to select "
+"a new recipient."
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:190
+msgid "Who should receive the notifications?"
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:195
+#, php-format
+msgid "The default email address is taken from <b>%s</b>."
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:196
+msgid "Settings &rarr; General &rarr; Email Address"
+msgstr ""
+
+#: includes/callback-formfields-recipient.php:202
+#, php-format
+msgid ""
+"All other entries are <a href=\"%s\">accounts with Administrator role</a>."
+msgstr ""
+
+#: includes/callback-formfields-subject.php:34
+msgid "Enter the desired subject line for the notification email."
+msgstr ""
+
+#: includes/function-build-default-mailbody.php:25
+msgid "Login successful"
+msgstr ""
+
+#: includes/function-build-default-mailbody.php:29
+msgid "User: [username]"
+msgstr ""
+
+#: includes/function-build-default-mailbody.php:33
+msgid "Blog: [blogname]"
+msgstr ""
+
+#: includes/function-build-default-mailbody.php:37
+msgid "Time: [date] at [time]"
+msgstr ""
+
+#: includes/function-build-default-mailbody.php:43
+msgid "Greetings"
+msgstr ""
+
+#: includes/function-build-default-mailbody.php:46
+#: includes/function-options-page.php:29
+#: includes/function-simple-history-logger.php:26
+msgid "Loginpetze"
+msgstr ""
+
+#: includes/function-build-default-subject.php:25
+msgid "User [username] logged in to [blogname]"
+msgstr ""
+
+#: includes/function-check-php.php:26
+#, php-format
+msgid ""
+"Loginpetze can not be activated. It requires PHP %1$s or higher. Your PHP "
+"Version is %2$s."
+msgstr ""
+
+#: includes/function-options-page.php:27
+msgid "Loginpetze Settings"
+msgstr ""
+
+#: includes/function-plugin-action-links.php:26
+msgid "Settings"
+msgstr ""
+
+#: includes/function-settings-init.php:34
+msgid "Customize your notification mails"
+msgstr ""
+
+#: includes/function-settings-init.php:44
+msgid "Recipient"
+msgstr ""
+
+#: includes/function-settings-init.php:59
+msgid "Subject"
+msgstr ""
+
+#: includes/function-settings-init.php:74
+msgid "Mail body"
+msgstr ""
+
+#: includes/function-simple-history-logger.php:21
+#, php-format
+msgid "Login notification sent to \"%s\"."
+msgstr ""
+
+#: includes/function-warning-before-deleting-user.php:78
+#, php-format
+msgid ""
+"User %1$s (%2$s) is set to receive the login notifications by Loginpetze."
+msgstr ""
+
+#: includes/function-warning-before-deleting-user.php:88
+#, php-format
+msgid ""
+"You might want to check the <a href=\"%s\">settings</a> before you proceed."
+msgstr ""
+
+#: loginpetze.php:82
+msgid "Loginpetze 1.x does not work on Multisite, I regret."
+msgstr ""
+
+#~ msgid "Default"
+#~ msgstr "Standard-Adresse"
+
+#~ msgid "Settings for Loginpetze"
+#~ msgstr "Einstellungen für Loginpetze"
+
+#~ msgid "User "
+#~ msgstr "Benutzer "
